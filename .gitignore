@@ -1,1 +1,25 @@
+# === Ignore dataset files ===
 household_power_consumption.txt
+*.zip
+*.tar.gz
+
+# === Ignore PNG output images if needed (optional) ===
+# Comment this out if you want to commit the final plots
+# *.png
+
+# === R-specific files ===
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# === VS Code / RStudio ===
+.vscode/
+*.Rproj
+
+# === Ignore all temporary or system files ===
+.DS_Store
+Thumbs.db
+
+# === Ignore Git LFS pointer files if needed ===
+*.lfs
